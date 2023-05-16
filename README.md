@@ -3,7 +3,8 @@ Minimal API do ASP.NET Core integrada à DLL3 do SINTEGRA para fazer a verifica�
 
 # Importante (Windows):
 - Copiar DLL para a System32;
-- Durante testes, rodar comando dotnet run --arch x86 para especificar arquitetura 32 bits (fazer o mesmo para publicação)
+- Durante testes, rodar comando dotnet run --arch x86 para especificar arquitetura 32 bits 
+- (fazer o mesmo para publicação - dotnet publish --arch x86)
 
 # Chamada
 - http://meuserver:5114/?InscricaoEstadual=123456&UF=SP
